@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Xun Gong - Smart Grid & AI Researcher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+        
+        nav {
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1rem;
+        }
+        
+        nav li {
+            margin: 0 1.5rem;
+        }
+        
+        nav a {
+            color: #1e3c72;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #2a5298;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        
+        h2 {
+            color: #1e3c72;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #2a5298;
+            font-size: 1.8rem;
+        }
+        
+        h3 {
+            color: #2a5298;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .publication {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .publication:last-child {
+            border-bottom: none;
+        }
+        
+        .pub-title {
+            font-weight: 600;
+            color: #1e3c72;
+            margin-bottom: 0.3rem;
+        }
+        
+        .pub-authors {
+            color: #555;
+            font-style: italic;
+            margin-bottom: 0.3rem;
+        }
+        
+        .pub-venue {
+            color: #666;
+        }
+        
+        .highlight {
+            background: #e8f4f8;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        
+        .experience-item {
+            margin-bottom: 2rem;
+        }
+        
+        .job-title {
+            font-weight: 700;
+            color: #1e3c72;
+            font-size: 1.1rem;
+        }
+        
+        .job-org {
+            color: #2a5298;
+            font-weight: 600;
+        }
+        
+        .job-date {
+            color: #666;
+            font-style: italic;
+        }
+        
+        ul.bullet-list {
+            margin-left: 1.5rem;
+            margin-top: 0.8rem;
+        }
+        
+        ul.bullet-list li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .awards-list {
+            list-style: none;
+        }
+        
+        .awards-list li {
+            padding: 0.8rem;
+            margin-bottom: 0.5rem;
+            background: #f8f9fa;
+            border-left: 4px solid #2a5298;
+            border-radius: 3px;
+        }
+        
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+            
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dr. Xun Gong</h1>
+        <p>Staff Researcher / Principal Engineer | PhD in Electrical and Computer Engineering</p>
+        <p>Smart Grid Technology & AI for Modern Power Systems</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a Staff Researcher and Principal Engineer at Huawei Technologies Canada's Smart Grid Technology Lab, where I lead the Microgrid & AI team. My research focuses on developing advanced microgrid solutions with interpretable data-driven intelligence to address safety- and time-critical challenges in modern power systems.</p>
+            
+            <p style="margin-top: 1rem;">The rapid integration of renewable energy sources poses significant challenges to grid operation safety and optimality, especially under various types of severe grid conditions and events. My work aims to bridge this gap through innovative approaches combining artificial intelligence, control theory, and power systems engineering.</p>
+        </section>
+        
+        <section id="research">
+            <h2>Research Interests</h2>
+            <p>My research interests lie at the intersection of power systems, artificial intelligence, and control engineering:</p>
+            <ul class="bullet-list">
+                <li><strong>Data-Driven Modeling & Control:</strong> Physics-informed machine learning, Koopman-based methods for microgrid stability</li>
+                <li><strong>Microgrid Systems:</strong> Autonomous control, energy management systems (EMS), digital twins</li>
+                <li><strong>Distributed Energy Resource Integration:</strong> Grid situational awareness, forecasting, resilience enhancement, ICT interoperability and function adaptivity</li>
+                <li><strong>Demand-Side Management:</strong> Aggregated load forecasting and control, thermostatically controlled loads (TCLs)</li>
+                <li><strong>AI for Smart Grids:</strong> Deep learning for power systems, intelligent decision-making algorithms</li>
+            </ul>
+        </section>
+        
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="job-title">Staff Researcher / Principal Engineer, Team Leader: Microgrid & AI</div>
+                <div class="job-org">Huawei Technologies Canada, Smart Grid Technology Lab</div>
+                <div class="job-date">April 2025 - Present | Toronto, ON</div>
+                <ul class="bullet-list">
+                    <li>Lead cutting-edge R&D in autonomous microgrid controls, forecasting, grid situational awareness, and digital twins</li>
+                    <li>Spearhead creation of microgrid R&D simulation platforms integrating state-of-the-art ML algorithms and AI-driven decision-making</li>
+                    <li>Manage multidisciplinary teams in delivering milestone software platforms including planning tools and intelligent EMS</li>
+                    <li>Generate novel ideas and protect them with IPR filings</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">Senior Researcher, Team Leader: Microgrid EMS</div>
+                <div class="job-org">Huawei Technologies Canada, Smart Grid Technology Lab</div>
+                <div class="job-date">September 2022 - March 2025 | Montreal/Toronto</div>
+                <ul class="bullet-list">
+                    <li>As one of the first two researchers joining the lab, made strategic roadmap for smart grid lab establishment</li>
+                    <li>Successfully completed two innovative microgrid projects with novel architecture and core algorithm deliverables</li>
+                    <li>Work closely with world-class scientists and stakeholders to identify grid requirements with increased renewable energy injection</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">Postdoctoral Researcher</div>
+                <div class="job-org">McGill University, Department of Electrical and Computer Engineering</div>
+                <div class="job-date">February 2021 - September 2022 | Montreal, QC</div>
+                <p><em>Supervised by: Prof. Xiaozhe Wang (IEEE Senior Member), Prof. Geza Joos (IEEE Life Fellow)</em></p>
+                <ul class="bullet-list">
+                    <li>Developed novel data-driven control algorithms using synchrophasor and smart sensor techniques</li>
+                    <li>Proposed online Koopman-based, physics-informed modeling methods requiring no warm-up training</li>
+                    <li>Successful grant proposal writing (won FRQNT grant)</li>
+                </ul>
+            </div>
+            
+            <h3>Education</h3>
+            
+            <div class="experience-item">
+                <div class="job-title">PhD in Electrical Engineering</div>
+                <div class="job-org">University of New Brunswick (UNB), Canada</div>
+                <div class="job-date">September 2014 - January 2021 | <span class="highlight">GPA: 4.20/4.3</span></div>
+                <p><em>Thesis: Aggregated load forecast and control for creating alternative power system resources using thermostatically controlled loads</em></p>
+                <p><em>Supervised by: Prof. Liuchen Chang (Fellow, Canadian Academy of Engineering), Prof. Eduardo Castillo (IEEE Senior Member), Prof. Julian Cardenas</em></p>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">MS in Power Electronics and Electric Drives</div>
+                <div class="job-org">Hefei University of Technology (HFUT), China</div>
+                <div class="job-date">September 2011 - May 2014 | <span class="highlight">GPA: 3.89/4.0</span></div>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">BSE in Electrical Engineering and Automation</div>
+                <div class="job-org">Hefei University of Technology (HFUT), China</div>
+                <div class="job-date">September 2007 - June 2011 | <span class="highlight">GPA: 3.89/4.0 (Top 3.4%)</span></div>
+            </div>
+        </section>
+        
+        <section id="publications">
+            <h2>Selected Publications</h2>
+            
+            <h3>Journal Papers</h3>
+            
+            <div class="publication">
+                <div class="pub-title">On Data-Driven Modeling and Control in Modern Power Grids Stability: Survey and Perspective</div>
+                <div class="pub-authors">X. Gong, X. Wang, B. Cao</div>
+                <div class="pub-venue">Applied Energy, vol. 350, p. 121740, Nov. 2023.</div>
+                <p style="margin-top: 0.5rem; color: #2a5298;">🏆 Selected and Spotlighted by official WeChat account of Applied Energy</p>
+            </div>
+            
+            <div class="publication">
+                <div class="pub-title">A Novel Koopman-Oriented Method for the Secondary Control of Microgrids with Grid-Following and Grid-Forming Resources</div>
+                <div class="pub-authors">X. Gong, X. Wang</div>
+                <div class="pub-venue">Applied Energy, vol. 333, p. 120631, Mar. 2023.</div>
+                <p style="margin-top: 0.5rem; color: #2a5298;">🏆 Spotlighted by Advances in Engineering as a key scientific article</p>
+            </div>
+            
+            <div class="publication">
+                <div class="pub-title">An Online Data-Driven Method for Microgrid Secondary Voltage and Frequency Control With Ensemble Koopman Modeling</div>
+                <div class="pub-authors">X. Gong, X. Wang, G. Joos</div>
+                <div class="pub-venue">IEEE Transactions on Smart Grid, vol. 14, no. 1, pp. 68-81, Jan. 2023.</div>
+            </div>
+            
+            <div class="publication">
+                <div class="pub-title">Robust Hierarchical Control Mechanism for Aggregated Thermostatically Controlled Loads</div>
+                <div class="pub-authors">X. Gong, E. C. Guerra, J. L. C. Barrera, B. Cao, S. Saleh, L. Chang</div>
+                <div class="pub-venue">IEEE Transactions on Smart Grid, vol. 12, no. 1, pp. 453-467, Jan. 2021.</div>
+            </div>
+            
+            <div class="publication">
+                <div class="pub-title">Bottom-Up Load Forecasting with Markov-Based Error Reduction Method for Aggregated Domestic Electric Water Heaters</div>
+                <div class="pub-authors">X. Gong, J. L. C. Barrera, E. C. Guerra, B. Cao, S. Saleh, L. Chang</div>
+                <div class="pub-venue">IEEE Transactions on Industry Applications, vol. 55, no. 6, pp. 6401-6413, Nov.-Dec. 2019.</div>
+            </div>
+            
+            <h3>Conference Papers</h3>
+            
+            <div class="publication">
+                <div class="pub-title">Autonomous Microgrid Resilience Enhancement Using Coordinated Preemptive Load Shedding and Battery Control</div>
+                <div class="pub-authors">S. Jadidi*, X. Gong, B. Cao, R. Iravani, et al.</div>
+                <div class="pub-venue">CIGRE 2025 International Symposium, Montreal, QC, Canada, Sep-Oct 2025.</div>
+            </div>
+            
+            <div class="publication">
+                <div class="pub-title">A Generic Load Forecasting Method for Aggregated Thermostatically Controlled Loads Based on Convolutional Neural Networks</div>
+                <div class="pub-authors">X. Gong, E. C. Guerra, et al.</div>
+                <div class="pub-venue">IEEE Energy Conversion Congress and Exposition (ECCE), Baltimore, MD, USA, 2019, pp. 495-502.</div>
+            </div>
+            
+            <h3>Patents</h3>
+            
+            <div class="publication">
+                <div class="pub-title">Microgrid control method, microgrid control system and electronic equipment</div>
+                <div class="pub-authors">X. Gong, B. Cao, M. Xu, R. Iravani</div>
+                <div class="pub-venue">PCT/CN Patent Application, WO2025201194, Feb. 10, 2025.</div>
+            </div>
+            
+            <div class="publication">
+                <div class="pub-title">Asynchronous Quick Micro-Capacitance Sensor Intelligent Gateway System and Control Method</div>
+                <div class="pub-authors">X. Gong, L. Guo, Y. Shi, J. Su, H. Xu</div>
+                <div class="pub-venue">CN Patent 2014104997071, Aug. 31, 2018.</div>
+            </div>
+            
+            <p style="margin-top: 1.5rem; font-style: italic;">Additional filed patents to be published (2024-2025)</p>
+        </section>
+        
+        <section id="awards">
+            <h2>Awards & Recognition</h2>
+            <ul class="awards-list">
+                <li><strong>Q2 President's Spot Award – Individual Award</strong>, Huawei Technologies Canada (2024)</li>
+                <li><strong>Future Star</strong>, Huawei Technologies (2023, 2024)</li>
+                <li><strong>Key Scientific Article Certificate</strong>, Advances in Engineering - Global (2024)</li>
+                <li><strong>TLDP Certificate of Completion</strong>, Huawei Technologies Canada (2024)</li>
+                <li><strong>Outstanding Individual Award</strong>, Huawei Technologies Canada - Highest R&D Individual Award (2023)</li>
+                <li><strong>Director's Individual Award</strong>, Huawei Montreal Research Centre (2022)</li>
+                <li><strong>New Brunswick Graduate Scholarship Award</strong>, Canada (2014)</li>
+                <li><strong>First-Class Scholarship Awards (Top 5%)</strong>, Hefei University of Technology, China (2008-2011)</li>
+            </ul>
+            
+            <h3 style="margin-top: 2rem;">Invited Speaking Engagements</h3>
+            <div class="publication">
+                <div class="pub-title">On data-driven modeling and control in modern power grids stability: Survey and perspective</div>
+                <div class="pub-venue">RIO 2025 Workshop, ONS (Brazilian Grid Operator), Rio de Janeiro, Brazil, December 2025</div>
+                <p style="margin-top: 0.5rem; font-size: 0.95rem;">Initially invited by 2025 IEEE Conference on Decision and Control (CDC)</p>
+            </div>
+            
+            <div class="publication">
+                <div class="pub-title">How AI Can Benefit from and Contribute to Energy Resilience</div>
+                <div class="pub-venue">Workshop on Computer Systems and Artificial Intelligence (WCSAI), São Paulo, Brazil, October 2025</div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>📧 Email:</strong> gongxun912@gmail.com
+                </div>
+                <div class="contact-item">
+                    <strong>📱 Phone:</strong> +1 (506) 897-1912
+                </div>
+                <div class="contact-item">
+                    <strong>📍 Location:</strong> Toronto, Ontario, Canada
+                </div>
+            </div>
+            
+            <h3>Professional Service</h3>
+            <p><strong>Peer Reviewer</strong> for leading journals including:</p>
+            <p style="margin-top: 0.5rem;">IEEE Transactions on Smart Grid, Power Systems, Industry Applications, Power Electronics, Industrial Informatics, Energy Conversion, Sustainable Energy, Artificial Intelligence; Applied Energy; IEEE Power Engineering Letters; IET Renewable Power Generation; and others.</p>
+            
+            <p style="margin-top: 1rem;"><strong>Certified Technical Interviewer</strong>, Huawei Technologies Canada (2023-Present)</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Dr. Xun Gong. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Smart Grid Technology | Artificial Intelligence | Microgrid Systems</p>
+    </footer>
+</body>
+</html>
