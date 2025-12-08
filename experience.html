@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Dr. Xun Gong</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+        
+        nav {
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1rem;
+        }
+        
+        nav li {
+            margin: 0 1.5rem;
+        }
+        
+        nav a {
+            color: #1e3c72;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+        
+        nav a:hover, nav a.active {
+            color: #2a5298;
+            background: #e8f4f8;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        
+        h2 {
+            color: #1e3c72;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #2a5298;
+            font-size: 1.8rem;
+        }
+        
+        h3 {
+            color: #2a5298;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+        }
+        
+        .experience-item {
+            margin-bottom: 2rem;
+        }
+        
+        .job-title {
+            font-weight: 700;
+            color: #1e3c72;
+            font-size: 1.1rem;
+        }
+        
+        .job-org {
+            color: #2a5298;
+            font-weight: 600;
+        }
+        
+        .job-date {
+            color: #666;
+            font-style: italic;
+        }
+        
+        ul.bullet-list {
+            margin-left: 1.5rem;
+            margin-top: 0.8rem;
+        }
+        
+        ul.bullet-list li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .highlight {
+            background: #e8f4f8;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+            
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dr. Xun Gong</h1>
+        <p>Staff Researcher / Principal Engineer | PhD in Electrical and Computer Engineering</p>
+        <p>Smart Grid Technology & AI for Modern Power Systems</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="experience.html" class="active">Experience</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="job-title">Staff Researcher / Principal Engineer, Team Leader: Microgrid & AI</div>
+                <div class="job-org">Huawei Technologies Canada, Smart Grid Technology Lab</div>
+                <div class="job-date">April 2025 - Present | Toronto, ON</div>
+                <ul class="bullet-list">
+                    <li>Lead cutting-edge R&D in autonomous microgrid controls, forecasting, grid situational awareness, and digital twins</li>
+                    <li>Spearhead creation of microgrid R&D simulation platforms integrating state-of-the-art ML algorithms and AI-driven decision-making</li>
+                    <li>Manage multidisciplinary teams in delivering milestone software platforms including planning tools and intelligent EMS</li>
+                    <li>Generate novel ideas and protect them with IPR filings</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">Senior Researcher, Team Leader: Microgrid EMS</div>
+                <div class="job-org">Huawei Technologies Canada, Smart Grid Technology Lab</div>
+                <div class="job-date">September 2022 - March 2025 | Montreal/Toronto</div>
+                <ul class="bullet-list">
+                    <li>As one of the first two researchers joining the lab, made strategic roadmap for smart grid lab establishment</li>
+                    <li>Successfully completed two innovative microgrid projects with novel architecture and core algorithm deliverables</li>
+                    <li>Work closely with world-class scientists and stakeholders to identify grid requirements with increased renewable energy injection</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">Postdoctoral Researcher</div>
+                <div class="job-org">McGill University, Department of Electrical and Computer Engineering</div>
+                <div class="job-date">February 2021 - September 2022 | Montreal, QC</div>
+                <p><em>Supervised by: Prof. Xiaozhe Wang (IEEE Senior Member), Prof. Geza Joos (IEEE Life Fellow)</em></p>
+                <ul class="bullet-list">
+                    <li>Developed novel data-driven control algorithms using synchrophasor and smart sensor techniques</li>
+                    <li>Proposed online Koopman-based, physics-informed modeling methods requiring no warm-up training</li>
+                    <li>Successful grant proposal writing (won FRQNT grant)</li>
+                </ul>
+            </div>
+            
+            <h3>Education</h3>
+            
+            <div class="experience-item">
+                <div class="job-title">PhD in Electrical Engineering</div>
+                <div class="job-org">University of New Brunswick (UNB), Canada</div>
+                <div class="job-date">September 2014 - January 2021 | <span class="highlight">GPA: 4.20/4.3</span></div>
+                <p><em>Thesis: Aggregated load forecast and control for creating alternative power system resources using thermostatically controlled loads</em></p>
+                <p><em>Supervised by: Prof. Liuchen Chang (Fellow, Canadian Academy of Engineering), Prof. Eduardo Castillo (IEEE Senior Member), Prof. Julian Cardenas</em></p>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">MS in Power Electronics and Electric Drives</div>
+                <div class="job-org">Hefei University of Technology (HFUT), China</div>
+                <div class="job-date">September 2011 - May 2014 | <span class="highlight">GPA: 3.89/4.0</span></div>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">BSE in Electrical Engineering and Automation</div>
+                <div class="job-org">Hefei University of Technology (HFUT), China</div>
+                <div class="job-date">September 2007 - June 2011 | <span class="highlight">GPA: 3.89/4.0 (Top 3.4%)</span></div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Dr. Xun Gong. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Smart Grid Technology | Artificial Intelligence | Microgrid Systems</p>
+    </footer>
+</body>
+</html>
